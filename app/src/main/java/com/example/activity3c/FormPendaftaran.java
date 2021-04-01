@@ -13,7 +13,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class FormPendaftaran extends AppCompatActivity {
     EditText edtNama, edtAlamat, edtEmail, edtPassword, edtrepass;
-    FloatingActionButton fab;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
