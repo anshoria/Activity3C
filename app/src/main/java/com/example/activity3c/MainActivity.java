@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                         b.putString("a", nama.trim());
                         b.putString("b", password.trim());
 
-                        Intent I = new Intent(getApplicationContext(), ActivityKedua.class);
+                        Intent I = new Intent(getApplicationContext(), Home_Activity.class);
                         I.putExtras(b);
                         startActivity(I);
                     } else {

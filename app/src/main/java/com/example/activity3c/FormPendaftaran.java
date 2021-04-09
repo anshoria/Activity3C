@@ -21,6 +21,13 @@ public class FormPendaftaran extends AppCompatActivity {
         setContentView(R.layout.activity_form_pendaftaran);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fabSimpan);
 
+        edtNama = findViewById(R.id.edNama);
+        edtAlamat = findViewById(R.id.edAlamat);
+        edtEmail = findViewById(R.id.EdEmail);
+        edtPassword = findViewById(R.id.edPass);
+        edtrepass = findViewById(R.id.edrepass);
+        fab = findViewById(R.id.fabSimpan);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,7 +46,7 @@ public class FormPendaftaran extends AppCompatActivity {
                     {
 
                         Toast.makeText(getApplicationContext(), "Pendaftaran Berhasil...",
-                                Toast.LENGTH_LONG).show();
+                                Toast.LENGTH_SHORT).show();
 
                         Intent i = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(i);
