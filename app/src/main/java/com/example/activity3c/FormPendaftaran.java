@@ -46,7 +46,7 @@ public class FormPendaftaran extends AppCompatActivity {
                     {
 
                         Toast.makeText(getApplicationContext(), "Pendaftaran Berhasil...",
-                                Toast.LENGTH_SHORT).show();
+                                Toast.LENGTH_LONG).show();
 
                         Intent i = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(i);
